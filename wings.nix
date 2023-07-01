@@ -1,6 +1,6 @@
-{ lib, buildGo118Module, fetchFromGitHub }:
+{ lib, buildGoModule, fetchFromGitHub }:
 
-buildGo118Module rec {
+buildGoModule rec {
   pname = "pterodactyl-wings";
   version = "1.11.6";
 
