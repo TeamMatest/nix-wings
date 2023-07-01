@@ -19,6 +19,6 @@
       in
       {
         packages.pterodactyl-wings = pkgs.callPackage ./wings.nix { };
-        defaultPackage = self.packages.${system}.pterodactyl-wings;
+        packages.default = self.packages.${system}.pterodactyl-wings;
       });
 }
